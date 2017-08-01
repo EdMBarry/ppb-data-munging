@@ -21,8 +21,8 @@ rawData=[]
 avData=[]
 
 "Paths to the data"
-path_coordinates='C:\\Users\\uqfegger\\Documents\\Kent_powerDistrib\\_shakerDistribution.csv' #Path to csv file containing the coordinates
-path_data_dirs='C:\\Users\\uqfegger\\Documents\\Kent_powerDistrib\\Batch\\' #Path to the directory containing the data directories
+path_coordinates='powerDistribution_data\\coordinates.csv' #Path to csv file containing the coordinates
+path_data_dirs='powerDistribution_data\\rawData\\' #Path to the directory containing the data directories
 
 "Read Coordinates and create the grid for interpolation"
 coordinates=genfromtxt(path_coordinates,skip_header=0,usecols=(1,2),delimiter=',') 
